@@ -1,0 +1,6 @@
+const num = 52000
+
+num.원 = function (){
+    return this.valueOf() + '원'
+}
+console.log(num.원())
